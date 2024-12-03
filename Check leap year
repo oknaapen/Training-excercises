@@ -1,0 +1,9 @@
+while True:
+    try:
+        Jaar = int(input(“voer een jaartal in: “))
+    except ValueError:
+        print("vul een geldig jaar in"
+if (Jaar % 4 == 0, and Jaar % 100 > 0) or (Jaar % 400 == 0):
+  print(“Het jaar is een schrikkeljaar”)
+else: 
+  print (“Het jaar is géén schrikkeljaar”
