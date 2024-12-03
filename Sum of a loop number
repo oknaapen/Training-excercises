@@ -1,0 +1,15 @@
+while True:
+    try:
+        series = int(input("please give a serie"))
+    except ValueError:
+        print("please give a valid number")
+
+#start number for total sum
+sum = 0
+
+#loop the series
+for i in range(1,series):
+   sum += i
+
+#display the sum
+print(sum)
