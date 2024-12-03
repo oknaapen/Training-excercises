@@ -1,0 +1,40 @@
+while True:
+    try:   
+        aantal_getallen = int(input("Van hoeveel getallen wil je het even aantal nummers filteren?"))
+        break
+    except ValueError:
+        print("vul een geldige waarde in")
+
+#basics
+countup = 0
+list = []
+even_list = []
+
+#vul de lijst met getallen
+while countup <= aantal_getallen:
+    while True:    
+        try:    
+            a = int("input("Vul een getal in"))
+            break
+        except ValueError:
+           print("Dit is geen geldig getal")
+   list.append(i)
+   countup += 1
+   return list
+
+#voeg de lijst toe met even nummer
+for i in list:
+    if i % 2 == 0:
+      even_list.append(i)
+    
+#display
+print(f"{dit zijn alle even getallen}")
+
+
+ 
+
+    
+
+
+
+
