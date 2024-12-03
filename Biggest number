@@ -1,0 +1,16 @@
+#basics
+few = 0
+list = []
+
+#fill in a few numbers
+while few <= 5:
+    a = int(input("Give a number"))
+    list.append(a)
+    few +=1
+    return list
+
+#maximum
+print(f"maximum of the number is {max(list)}")
+
+
+    
