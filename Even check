@@ -1,0 +1,10 @@
+while True:
+    try:
+        cijfer = float(input(“Voer het getal in: “))
+    except ValueError
+        print("Please give a valid vlaue"
+    
+if int(cijfer % 2:) == 0
+  print(“Het getal is even”)
+else: 
+  print(“Het getal is oneven)
