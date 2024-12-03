@@ -1,0 +1,12 @@
+
+#
+try:
+    Length = input(“ {“Fill in the lenght”}”)
+    Width = input(“ {“Fill in the width”}”)
+except ValueError:
+    print("Please fill in a valid value")
+
+Perimeter = int(Length) * 2 + int(Width) *2
+Square = int(Length) * int(Width)
+Print(“Perimeter =” {Perimeter})
+Print(“Square  =” {Square})
