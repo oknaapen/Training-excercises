@@ -1,0 +1,5 @@
+Var_1 = str(input(“Voer het eerste getal in: “))
+Var_2 = str(input(“Voer het tweede getal in: “))
+Print(“ Het eerste geval is:”, Var_2)
+Print(“ Het tweede geval is:”, Var_1)
+Lengte = input(“ {“vul hier de lengte in”}”)
