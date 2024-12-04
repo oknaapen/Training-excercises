@@ -1,0 +1,11 @@
+def FizzBizz(1,serie + 1):
+    for i in serie:
+        if i % 3 == 0:
+            print("Fizz")
+        elif i % 5 == 0:
+            print("Bizz")
+        elif i % 5 and i % 3 == 0:
+            print("FizzBizz")
+
+FizzBizz(100)
+
