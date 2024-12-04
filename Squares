@@ -1,0 +1,16 @@
+list = []
+
+def sum_of_square(numbers):
+    for i in numbers:
+       a = i * i
+       list.append(a)
+       return list
+
+while True:
+    try:
+        numbers = int(input("vul een reeks in")
+        break
+    except ValueError:
+        print("vul een getal in")
+
+print(sum_of_square(numbers)
