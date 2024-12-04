@@ -1,0 +1,6 @@
+def participants(numbers):
+    if numbers > 10:
+        print("there are to must participants")
+    else:
+        for i in numbers:
+            print(f" deelnemer: {i}")
