@@ -1,0 +1,28 @@
+import random as rd
+
+
+cijfer = rd.randint(1,100)
+
+def guess_the_number():
+    while cijfer != getal:
+        while True:
+            try:    
+                getal = int(input("vul alsjeblieft een getal in"))
+            except ValueError:
+                print("vul alsjeblieft een geldig getal in")
+       if getal < cijfer:
+           print("Getal is te laag")
+       elif getal > cijfer:
+           print("Getal is te hoog")
+    print("gefeliciteerd je hebt het getal geraden")
+
+
+
+while True:
+   spel = str(input("Wil je nog een keer spelen? Ja of Nee")
+   if spel == "Ja":
+       guess_the_number()
+   elif spel == "Nee":
+       False
+    
+       
